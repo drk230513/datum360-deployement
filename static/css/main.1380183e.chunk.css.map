@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,iBACI,2BAA6B,CAC7B,iBAAmB,CACnB,kBAAoB,CACpB,wCACJ","file":"main.1380183e.chunk.css","sourcesContent":[".login-container{\r\n    position: absolute !important;\r\n    top: 50% !important;\r\n    left: 50% !important;\r\n    transform: translate(-50%, -50%) !important;\r\n}\r\n\r\n"]}
