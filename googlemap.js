@@ -67,8 +67,15 @@ function InitializeMap(data) {
 function drawRoute(r) {
     //This will take the request and draw the route and return response and status as output
     directionsService.route(r, function (_response, _status) {
+        console.log("_response ---------")
+        console.log(_response)
+
         if (_status == google.maps.DirectionsStatus.OK) {
+             window.mapErrorCallback(false);
             _directionsRenderer.setDirections(_response);
+        }
+        else{
+            window.mapErrorCallback(true);
         }
     });
 }
