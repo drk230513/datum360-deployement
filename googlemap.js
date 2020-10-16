@@ -28,9 +28,9 @@ function InitializeMap(data) {
     var flightPath = new google.maps.Polyline({
         path: data,
         geodesic: true,
-        strokeColor: '#44337a',
-        strokeOpacity: 1.0,
-        strokeWeight: 4
+        strokeColor: '#fff',
+        strokeOpacity: 0.0,
+        strokeWeight: 0
     });
 
     flightPath.setMap(map);
