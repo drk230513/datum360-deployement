@@ -51,3 +51,5 @@ function InitializeMap(data) {
 }
 
 window.InitializeMap = InitializeMap;
+
+// commit
