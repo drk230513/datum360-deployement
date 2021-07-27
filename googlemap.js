@@ -41,8 +41,6 @@
 }
 
 function InitializeMap(data) {
-    console.log(JSON.stringify(data))
-
     var map = new google.maps.Map(document.getElementById('dvMap'), {
         zoom: 11,
         center: { "lat": data[0].lat, "lng": data[0].lng },
@@ -68,7 +66,6 @@ function InitializeMap(data) {
     })
 
     var bounds = new google.maps.LatLngBounds();
-    console.log()
     latlngList.map((i) => {
         bounds.extend(i);
     })
